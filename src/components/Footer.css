@@ -1,0 +1,17 @@
+.footer {
+  background: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 30px 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.footer-sub {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}

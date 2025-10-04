@@ -3,6 +3,7 @@
   font-family: poppins;
   margin: 0;
   padding: 0;
+      overflow-x:  hidden;
 
 }
 .what h1{
@@ -12,9 +13,174 @@
   font-family: poppins;
   font-weight: 300;
   font-style: italic;
-  text-decoration: underline;
+
+  
 }
 .what span{
   font-family: Climate crisis;
   text-decoration: none;
+    color: rgb(228, 0, 0);
+}
+.element::-webkit-scrollbar {
+  display: none; 
+}
+.dart{
+  justify-content: center;
+  justify-self: center;
+  font-size: 4rem;
+  font-family: poppins;
+  font-weight: 300;
+  font-style: italic;
+
+}
+.dart span{
+    font-family: Climate crisis;
+  text-decoration: none;
+  color: rgb(228, 0, 0);
+}
+.art{
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  background-color: rgb(255, 255, 255) ;
+
+  width: 90vw;
+  justify-self: center;
+  border-radius: 50px;
+ 
+}
+.dart-cont{
+  display: flex;
+  padding:2% 10%;
+  height: 60vh;
+  background-color: rgb(255, 255, 255);
+  gap: 10%;
+}
+.dart-cont p{
+width: 50%;
+font-size: 1.3rem;
+text-align: left;
+color: rgb(21, 21, 21);
+}
+.dart-cont img{
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+}
+.PujaArt{
+  display: flex;
+  justify-content: space-evenly;
+   border: 2px solid rgb(58, 58, 58);
+   height: 60vh;
+   border-radius: 30px;
+   background-color: rgb(0, 0, 0);
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 100px;
+  margin: 0 40px;
+}
+* {
+
+  box-sizing: border-box;
+}
+.infiniteslider h4{
+  justify-self: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: rgb(77, 77, 77);
+
+}
+.Joinnow h2{
+    justify-content: center;
+  justify-self: center;
+  font-size: 4rem;
+  font-family: poppins;
+  font-weight: 300;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+}
+.Joinnow span{
+      font-family: Climate crisis;
+  text-decoration: none;
+
+  color: rgb(226, 0, 0);
+}
+.joincont p{
+  width: 80vw;
+  justify-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgb(29, 29, 29);
+  margin: 10px;
+}
+.Joinnow{
+color: white;
+border-radius: 50px;
+text-align: center;
+border: 1px solid rgb(174, 174, 174);
+padding: 3rem;
+
+}
+.Joinnow button{
+  padding: 10px;
+  font-size: 30px;
+  background-color: rgb(191, 0, 0);
+
+  border: 2px solid rgb(92, 0, 0);
+  border-radius: 20px;
+  color: white;
+  font-family: poppins;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.Joinnow button:hover{
+background-color: white;
+color: rgb(158, 0, 0);
 }

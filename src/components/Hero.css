@@ -4,6 +4,7 @@
 
 
 
+
 }
 .herotxt{
     font-family: climate crisis;
@@ -12,12 +13,15 @@
     position: relative;
 
 
+
+
 }
 #durga{
     color: rgb(255, 255, 255);
     margin: 0;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    overflow: hidden;
 }
 #online{
     width: 100%;
@@ -26,7 +30,8 @@
     color: white;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    text-decoration: line-through;
+
+    overflow: hidden;
 }
 #online:hover{
     color: black;
@@ -37,4 +42,9 @@
 .hero{
 
 margin-bottom: 5%;
+
+
+}
+.element::-webkit-scrollbar {
+  display: none; 
 }
