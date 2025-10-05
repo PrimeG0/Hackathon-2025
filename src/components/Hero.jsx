@@ -4,6 +4,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { SplitText } from 'gsap/SplitText';
 import { useGSAP } from '@gsap/react';
+import ReactPlayer from 'react-player'
+
 
 const Hero = () => {
     useGSAP(() => {
@@ -40,10 +42,8 @@ const Hero = () => {
     return (
         <>
         <div className='hero'>
-            <video width="100%" height="80%" autoPlay preload='video.mp4' loop muted className='heroVid' >
-                <source src="src\assets\video.mp4" type="video/mp4"/>
-                    
-            </video>
+          <ReactPlayer src='src\assets\video.mp4' width="100%" height="100%" autoPlay  loop muted className='heroVid' />
+            
             <div className='herotxt'><span id='durga' className='txt'>DURGA</span> <br />
                 <div id='online' className='txt'>ONLINE</div>
             </div>
