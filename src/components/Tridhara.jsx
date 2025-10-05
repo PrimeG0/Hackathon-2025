@@ -7,6 +7,7 @@ import { SplitText } from 'gsap/SplitText';
 import { useGSAP } from '@gsap/react';
 import { useState } from 'react'
 import Footer from './Footel';
+import Cursor from './Cursor'
 
 
 const images = [
@@ -52,6 +53,7 @@ const Tridhara = () => {
     return (
          
         <>
+        <Cursor/>
             <Nav></Nav>
             <div className='Tridhara'>
                 <img className='th' src="https://media.indulgexpress.com/indulgexpress%2F2025-09-24%2Flyq91x8r%2FIMG9400-1.JPG" alt="" />

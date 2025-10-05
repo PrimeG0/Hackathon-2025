@@ -13,57 +13,17 @@
     text-align: center;
     font-size: 1.3rem;
 }
-.bento li{
-    justify-self: center;
 
-    list-style: none;
-    border-radius: 30px;
-    cursor: pointer;
-
-    margin: 20px;
-
+.bento .tilted-card-demo-text{
+    font-size: 3rem;
+    font-family: Climate crisis;
+width: 90%;
+    padding: 20px;
 }
-.Pandals:hover{
-    scale: 1.03;
-}
-
-.Pandals img{
-    width: 100%;
-    border-radius: 50px;
-    height: 100%;
-    object-fit: cover;
+.bento{
+     justify-content: center; 
+  align-items: center;
 }
 .Pandals{
-    border-radius: 50px;
-        width: 90vw;
-    height: 500px;
-    border: 2px solid rgb(233, 233, 233);
-        transition: all 0.3s ease-in-out;
-
-}
-.Pandals h2{
-position: absolute;
-z-index: 999;
-color: rgb(255, 255, 255);
-font-family: Climate crisis;
-margin-top: 20%;
-font-size: 8rem;
-
-transition: all 0.3s ease-in-out;
-
-
-
-}
-.Pandals h2:hover{
-    scale: 1.03;
-}
-.Pandals h3{
-    position: absolute;
-    color: white;
-    z-index: 9999;
-    margin: 2%;
-    background-color: rgba(9, 9, 9, 0.667);
-    padding: 5px;
-    border-radius: 10px;
-    font-weight: 400;
+    margin: 3rem;
 }

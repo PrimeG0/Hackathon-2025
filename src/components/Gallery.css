@@ -1,0 +1,19 @@
+.Galh img{
+margin: -20% 0;
+width: 100%;
+
+}
+.Galh p{
+    font-family: poppins;
+    font-size: 1.3rem;
+    width: 80vw;
+    justify-self: center;
+    text-align: center;
+    color: whitesmoke;
+}
+.Galh{
+    background-color: rgb(3, 0, 13);
+}
+.Galh h1{
+    color: white;
+}

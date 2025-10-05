@@ -7,6 +7,8 @@ import { SplitText } from 'gsap/SplitText';
 import { useGSAP } from '@gsap/react';
 import { useState } from 'react'
 import Footer from './Footel';
+import Cursor from './Cursor'
+
 
 const images = [
   "https://pbs.twimg.com/media/G13ZIb5WYAAP-0U.jpg", 
@@ -51,6 +53,7 @@ const Ekdalia = () => {
     return (
          
         <>
+        <Cursor/>
             <Nav></Nav>
             <div className='Tridhara'>
                 <img className='th' src="https://feeds.abplive.com/onecms/images/uploaded-images/2024/10/11/e62f92352a82336b6858bfeed8c43deb1b023.png" alt="" />

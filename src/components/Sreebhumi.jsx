@@ -7,6 +7,7 @@ import { SplitText } from 'gsap/SplitText';
 import { useGSAP } from '@gsap/react';
 import { useState } from 'react'
 import Footer from './Footel';
+import Cursor from './Cursor'
 
 
 const images = [
@@ -52,6 +53,7 @@ const Sreebhumi = () => {
     return (
          
         <>
+        <Cursor/>
             <Nav></Nav>
             <div className='Tridhara'>
                 <img className='th' src="https://pbs.twimg.com/media/G1SqDbLbQAIR8AO.jpg" alt="" />
@@ -69,7 +71,7 @@ const Sreebhumi = () => {
                 <div className="bentogrid">
                     <div className='fl'>
       <div className="bentocard">
-        <h2 className="pandalname">Sribhumi Sporting</h2>
+        <h2 className="pandalname">Sreebhumi Sporting</h2>
         <p className="pandallocation">📍Sreebhumi, Lake Town, Kolkata, West Bengal</p>
         <p className="pandaltheme">
           🎨 <strong>Theme 2025:</strong> The theme for the Sreebhumi Sporting Club's 2025 Durga Puja is the Swaminarayan Akshardham Temple. The magnificent pandal, crafted with extraordinary detail, aims to replicate the grandeur of the temple, creating a spectacular experience for visitors during the festival.  

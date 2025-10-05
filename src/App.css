@@ -1,8 +1,7 @@
 :root{
-  width: 100VW;
+
   font-family: poppins;
-  margin: 0;
-  padding: 0;
+
       overflow-x:  hidden;
 
 }
@@ -178,9 +177,26 @@ padding: 3rem;
   color: white;
   font-family: poppins;
   transition: all 0.3s ease-in-out;
-  cursor: pointer;
+
 }
 .Joinnow button:hover{
 background-color: white;
 color: rgb(158, 0, 0);
+}
+.what p{
+  font-size: 2rem;
+  justify-self: center;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  width: 80%;
+}
+@media screen and (max-width: 500px) {
+  .PujaArt{
+    display: block;
+    height: 100%;
+  }
+  .dart-cont{
+    display: block;
+  }
 }

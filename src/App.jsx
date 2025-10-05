@@ -8,20 +8,21 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import { SplitText } from 'gsap/SplitText';
-import ScrollReveal from './components/ScrollReveal'
+
 import TiltedCard from './components/TiltedCard'
 import Footer from './components/Footel'
 
 
-import { Routes, Route, useNavigate } from 'react-router-dom'
+import { Routes, Route, useNavigate} from 'react-router-dom'
+import { BrowserRouter as Router} from "react-router-dom";
 import Pandals from './components/Pandals'
 import Tridhara from './components/Tridhara'
 import Ekdalia from './components/Ekdalia'
 import Sreebhumi from './components/Sreebhumi'
-
-
-
-
+import Cursor from './components/Cursor'
+import Gallery from './components/Gallery'
+import About from './components/About'
+import ScrollToTop from './components/ScrollToTop'
 
 
 
@@ -66,9 +67,13 @@ function App() {
   }, []);
 
   return (
+<>
+<ScrollToTop/>
      <Routes>
+
       <Route path='/' element={
     <>
+    <Cursor/>
       <Nav></Nav>
       <Hero></Hero>
 
@@ -78,15 +83,11 @@ function App() {
           <h1 className='whath1'>
             Welcome to <span className='whtxt'>DURGA ONLINE</span>
           </h1>
-        </div>
-        <ScrollReveal
-          baseOpacity={0}
-          enableBlur={true}
-          baseRotation={5}
-          blurStrength={10}
-        >
+                  <p>
           Durga Online is your digital companion to Kolkata’s grand Durga Pujo celebrations. Discover the most iconic pandals, find the best street food, follow festival routes, and experience the rhythm of dhaaks and lights — all from the comfort of your screen.
-        </ScrollReveal>
+</p>
+        </div>
+
         <div className='art' >
           <h1 className='dart'>
             what is  <span className='whtxt'> Durga Puja Art  </span>
@@ -201,7 +202,10 @@ Join today and celebrate the spirit of Pujo with us!
       <Route path="/tridhara" element={<Tridhara/>} />
       <Route path="/ekdalia" element={<Ekdalia/>} />
        <Route path="/sreebhumi" element={<Sreebhumi/>} />
+      <Route path="/gallery" element={<Gallery/>} />
+       <Route path="/about" element={<About/>} />
     </Routes>
+</>
   )
 }
 

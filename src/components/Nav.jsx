@@ -10,9 +10,9 @@ const Nav = () => {
       <ul className="nav-links">
         <li><a onClick={() => navigate('/')} >Home</a></li>
         <li><a onClick={() => navigate('/pandals')} >Pandals</a></li>
-        <li><a href="#food">Gallery</a></li>
+        <li><a  onClick={() => navigate('/gallery')}>Gallery</a></li>
 
-        <li><a href="#updates">About Us</a></li>
+        <li><a  onClick={() => navigate('/about')}>About Us</a></li>
       </ul>
     </nav>
   );

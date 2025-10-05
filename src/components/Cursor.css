@@ -1,0 +1,25 @@
+.cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  background: radial-gradient(circle, #dd2100, #ff416c); 
+  mix-blend-mode: difference; 
+  transition: transform 0.25s ease, width 0.25s ease, height 0.25s ease, background 0.25s ease;
+  z-index: 9999;
+}
+
+.cursor.hovered {
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%) scale(1.2);
+  background: radial-gradient(circle, #ffd700, #ff4500); 
+}
+* {
+  cursor: none;
+}
+button{
+  cursor: none;
+}
