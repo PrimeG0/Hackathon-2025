@@ -4,15 +4,19 @@ import DomeGallery from './DomeGallery'
 import Footer from './Footel'
 import Nav from './Nav'
 import Cursor from './Cursor'
+import BounceCards from './BounceCards'
+
 
 
 
 
 const Gallery = () => {
+  
   return (
     <>
     <Cursor/>
     <Nav></Nav>
+   
     <div className='Galh'>
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Durga_Puja_image.jpg" alt="" />
         <div className='herotxt'><span id='durga' className='txt'>GALLERY</span> <br />

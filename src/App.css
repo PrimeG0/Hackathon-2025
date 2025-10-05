@@ -1,8 +1,7 @@
 :root{
 
   font-family: poppins;
-
-      overflow-x:  hidden;
+ overflow-x:  hidden;
 
 }
 .what h1{
@@ -124,10 +123,7 @@ color: rgb(21, 21, 21);
   height: 100px;
   margin: 0 40px;
 }
-* {
 
-  box-sizing: border-box;
-}
 .infiniteslider h4{
   justify-self: center;
   font-weight: 400;
@@ -170,9 +166,9 @@ padding: 3rem;
 .Joinnow button{
   padding: 10px;
   font-size: 30px;
-  background-color: rgb(191, 0, 0);
+  background-color: rgb(236, 0, 0);
 
-  border: 2px solid rgb(92, 0, 0);
+  border: 2px solid rgb(211, 0, 0);
   border-radius: 20px;
   color: white;
   font-family: poppins;
@@ -181,7 +177,7 @@ padding: 3rem;
 }
 .Joinnow button:hover{
 background-color: white;
-color: rgb(158, 0, 0);
+color: rgb(243, 0, 0);
 }
 .what p{
   font-size: 2rem;
