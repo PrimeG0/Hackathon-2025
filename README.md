@@ -1,16 +1,49 @@
-# React + Vite
+## 🎯 Project Summary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DURGA ONLINE is a front-end-first project made for The Pixels of Pujo hackathon. It captures the spectacle of Durga Puja through:
 
-Currently, two official plugins are available:
+Beautiful hero with scroll-driven reveal and parallax effects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+An interactive map-style guide (demo/mock) for top pandals and food stalls
 
-## React Compiler
+Festival-themed product/showcase and food gallery
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Image slider (80vh) to showcase pandal photography
 
-## Expanding the ESLint configuration
+Bento-style pandal cards with theme, location and highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Custom cursor, GSAP animations, and subtle sound cues for atmosphere
+
+Community UI: a mock voting UI (static) for “Vote your favorite pandal”
+
+Designed to be lightweight, responsive, and presentation-ready for judges.
+
+## ✨ Key Features
+
+Hero experience: parallax / GSAP scroll reveal that immerses visitors in the festival mood.
+
+Pandal cards: consistent information layout (Name, Location, Theme, Timings, Highlights).
+
+Food section: curated list of Pujo food with attractive cards and hover effects.
+
+Image slider: full-height (80vh) slider with controls and dots.
+
+Custom cursor: festival-themed cursor (red/gold gradient) with hover interactions.
+
+Vote UI (static): polished mock voting interface for community engagement.
+
+GSAP animations: smooth entrances, scroll triggers, and micro-interactions.
+
+Accessible & responsive: mobile-first breakpoints and readable typography.
+
+## 🧩 Tech Stack
+
+Frontend: HTML5, CSS3, JavaScript (vanilla) + React (components provided)
+
+Animation: GSAP (ScrollTrigger)
+
+Map (demo): Leaflet (used in the map demo)
+
+Icons: lucide-react (optional)
+
+Assets: Unsplash / placeholder images (replace with real assets for final deploy)

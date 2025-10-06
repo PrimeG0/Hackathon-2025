@@ -9,7 +9,6 @@ import { useState } from 'react'
 import Footer from './Footel';
 import Cursor from './Cursor'
 import BounceCards from './BounceCards';
-import Food from './Food';
 
 
 
@@ -117,7 +116,7 @@ const Sreebhumi = () => {
     </div>
         <div>
         <h2 className='snaptxt'>Taste Some delicious <span>FOOD</span> </h2>
-        <Food></Food>
+
                   <BounceCards
                     className="custom-bounceCards"
                     images={image}
