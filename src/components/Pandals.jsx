@@ -54,7 +54,7 @@ const Pandals = () => {
     <Cursor/>
     <Nav></Nav>
     <div className='Pandalhero'>
-   <video src='src\assets\videoplayback (1).mp4' width="100%" height="80%" autoPlay preload='video.mp4' loop muted className='PandalVid' >
+   <video src='\videos\videoplayback (1).mp4' width="100%" height="80%" autoPlay preload='video.mp4' loop muted className='PandalVid' >
 
                     
             </video>

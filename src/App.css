@@ -2,8 +2,10 @@
 
   font-family: poppins;
  overflow-x:  hidden;
+   scroll-behavior: smooth;
 
 }
+
 .what h1{
   justify-content: center;
   justify-self: center;
@@ -13,6 +15,18 @@
   font-style: italic;
 
   
+}
+.what{
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.166);
+  width: 90%;
+  justify-self: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.what:hover{
+  transform: translateY(10px);
 }
 .what span{
   font-family: Climate crisis;
@@ -54,7 +68,7 @@
   gap: 10%;
 }
 .dart-cont p{
-width: 50%;
+width: 60%;
 font-size: 1.3rem;
 text-align: left;
 color: rgb(21, 21, 21);
@@ -195,4 +209,17 @@ color: rgb(243, 0, 0);
   .dart-cont{
     display: block;
   }
+}
+.hsnap{
+  justify-self: center;
+  padding: 20px;
+}
+.hsnap p{
+  text-align: center;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+}
+.hsnap p:hover{
+color: red;
+scale: 1.1;
 }

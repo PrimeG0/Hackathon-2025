@@ -32,7 +32,7 @@ const Hero = () => {
       }
     });
     gsap.to('.hero', {
-      y:-100 , scrollTrigger:{
+      y:-10 , scrollTrigger:{
         trigger:'.hero',
         start:'top top',
         scrub:true
@@ -42,8 +42,12 @@ const Hero = () => {
     return (
         <>
         <div className='hero'>
-          <ReactPlayer src='src\assets\video.mp4' width="100%" height="100%" autoPlay  loop muted className='heroVid' />
-            
+          
+            <video src='\videos\video.mp4' width="100%" height="80%" autoPlay preload='video.mp4' loop muted className='heroVid' >
+
+                    
+            </video>
+          
             <div className='herotxt'><span id='durga' className='txt'>DURGA</span> <br />
                 <div id='online' className='txt'>ONLINE</div>
             </div>

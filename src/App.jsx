@@ -23,7 +23,7 @@ import Cursor from './components/Cursor'
 import Gallery from './components/Gallery'
 import About from './components/About'
 import ScrollToTop from './components/ScrollToTop'
-
+import RollingGallery from './components/RollingGallery'
 
 
 
@@ -63,6 +63,13 @@ function App() {
         scrub: true
       }
     });
+    gsap.fromTo(".what", { scale: 0.5, x: -20, opacity:0 }, {
+      scale: 1, duration: 0.5,x:0, opacity:1,scrollTrigger: {
+        trigger: '.what',
+        start: 'bottom bottom',
+        scrub: true
+      }
+    });
 
   }, []);
 
@@ -93,9 +100,9 @@ function App() {
             what is  <span className='whtxt'> Durga Puja Art  </span>
           </h1>
           <div className='dart-cont'>
-            <p>Durga Puja is Bengal’s biggest festival, celebrated over a week in September–October, with dates announced well in advance. At its heart is Goddess Durga, crafted in clay and worshipped in the act of vanquishing Mahishasura. In Kolkata, the capital of West Bengal, Durga Puja goes beyond religion to become the world’s largest community-funded art show.</p>
+            <p>Durga Puja Art is the soul of Kolkata’s grand festival — a fusion of tradition and innovation. From clay idols crafted by skilled artisans to elaborate pandals designed around unique yearly themes, every creation is an expression of devotion and imagination. </p>
 
-            <img src="https://i0.wp.com/lifeisavacation.in/wp-content/uploads/2014/10/durgapuja2014-behalabarisha-2.jpg?fit=600%2C453" alt="" />
+            <img src="https://static.vecteezy.com/system/resources/previews/017/146/795/large_2x/1st-october-2022-kolkata-west-bengal-india-maa-durga-idol-of-66-pally-kalighat-free-photo.JPG" alt="" />
 
 
           </div>
@@ -194,6 +201,13 @@ Join today and celebrate the spirit of Pujo with us!
 
           </div>
         </div>
+      </div>
+      <div className='hsnap'>
+        <h1 className='dart'>
+            Our<span className='whtxt'> Snapshots  </span>
+          </h1>
+      <RollingGallery autoplay={true} pauseOnHover={true} />
+      <p onClick={() => navigate('/gallery')}>For more visit our Gallery <span>&#8594;</span></p>
       </div>
 <Footer></Footer>
     </>

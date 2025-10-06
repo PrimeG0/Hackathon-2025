@@ -9,13 +9,13 @@ import { useState } from 'react'
 import Footer from './Footel';
 import Cursor from './Cursor'
 import BounceCards from './BounceCards';
+import Food from './Food';
 
 
 
 
 
-
-const images = [
+const img= [
   "https://media.indulgexpress.com/indulgexpress%2F2025-09-24%2Flyq91x8r%2FIMG9400-1.JPG",
   "https://imgs.etvbharat.com/etvbharat/prod-images/28-09-2025/wb-kol-tridhara-7211146_25092025152851_2509f_1758794331_564_2809newsroom_1759055899_1018.jpg",
   "https://imgs.etvbharat.com/etvbharat/prod-images/28-09-2025/wb-kol-tridhara-7211146_25092025152851_2509f_1758794331_328_2809newsroom_1759055899_676.jpg",
@@ -127,6 +127,7 @@ const Tridhara = () => {
         </div>
         <div>
 <h2 className='snaptxt'>Taste Some delicious <span>FOOD</span> </h2>
+<Food></Food>
           <BounceCards
             className="custom-bounceCards"
             images={image}
@@ -142,7 +143,7 @@ const Tridhara = () => {
 
         <h2 className='snaptxt'>Our <span>Gallery</span> </h2>
         <div className="slider">
-          {images.map((img, index) => (
+          {img.map((img, index) => (
             <div
               className={index === current ? "slide active" : "slide"}
               key={index}
