@@ -12,7 +12,7 @@ import BounceCards from './BounceCards';
 
 
 
-
+// Ekdalia section for our pandals
 
 const img = [
   "https://pbs.twimg.com/media/G13ZIb5WYAAP-0U.jpg", 

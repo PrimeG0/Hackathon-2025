@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
+//Makes the website much smooter as it scrolls to the top in refresh
+
 const ScrollToTop = (props) => {
     const location = useLocation();
     useEffect(() => {

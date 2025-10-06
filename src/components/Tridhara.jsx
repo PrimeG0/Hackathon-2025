@@ -11,7 +11,7 @@ import Cursor from './Cursor'
 import BounceCards from './BounceCards';
 
 
-
+//Tridhara section of our Pandal tab
 
 
 

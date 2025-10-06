@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import { gsap } from 'gsap';
 import './BounceCards.css';
 
+// This is a ReactBits library component
+
 export default function BounceCards({
   className = '',
   images = [],

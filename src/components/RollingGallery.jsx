@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { motion, useMotionValue, useAnimation, useTransform } from 'motion/react';
 import './RollingGallery.css';
 
+// This is a ReactBits library component
+
 const IMGS = [
   'https://phool.co/cdn/shop/articles/1727818018529how-many-durga-puja-pandals-in-kolkata-exploring-the-enchanting-festival-of-lights_dc195623-5bb6-4658-990e-fe09645529b5_1024x1024.jpg?v=1728039304',
   'https://images.hindustantimes.com/img/2022/09/30/1600x900/durga_puja_1664502025274_1664502025551_1664502025551.jpg',

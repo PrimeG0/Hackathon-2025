@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Cursor.css";
 
+// This is a ReactBits library component
+
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [hovered, setHovered] = useState(false);

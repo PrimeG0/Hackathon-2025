@@ -6,9 +6,10 @@ import { SplitText } from 'gsap/SplitText';
 import { useGSAP } from '@gsap/react';
 import ReactPlayer from 'react-player'
 
+//This is our HERO section 
 
 const Hero = () => {
-    useGSAP(() => {
+  useGSAP(() => {
 
     gsap.registerPlugin(SplitText);
 
@@ -26,34 +27,34 @@ const Hero = () => {
     })
 
     gsap.to('.txt', {
-      opacity: 1, y:0, delay: 0.2, stagger: {
+      opacity: 1, y: 0, delay: 0.2, stagger: {
         each: 0.2,
 
       }
     });
     gsap.to('.hero', {
-      y:-10 , scrollTrigger:{
-        trigger:'.hero',
-        start:'top top',
-        scrub:true
+      y: -10, scrollTrigger: {
+        trigger: '.hero',
+        start: 'top top',
+        scrub: true
       }
     });
   }, []);
-    return (
-        <>
-        <div className='hero'>
-          
-            <video src='\videos\video.mp4' width="100%" height="80%" autoPlay preload='video.mp4' loop muted className='heroVid' >
+  return (
+    <>
+      <div className='hero'>
 
-                    
-            </video>
-          
-            <div className='herotxt'><span id='durga' className='txt'>DURGA</span> <br />
-                <div id='online' className='txt'>ONLINE</div>
-            </div>
+        <video src='\videos\video.mp4' width="100%" height="80%" autoPlay preload='video.mp4' loop muted className='heroVid' >
+
+
+        </video>
+
+        <div className='herotxt'><span id='durga' className='txt'>DURGA</span> <br />
+          <div id='online' className='txt'>ONLINE</div>
         </div>
-        </>
-    )
+      </div>
+    </>
+  )
 }
 
 export default Hero

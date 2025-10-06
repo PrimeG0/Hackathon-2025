@@ -6,7 +6,7 @@ import Nav from './Nav'
 import Cursor from './Cursor'
 import BounceCards from './BounceCards'
 
-
+//This is our gallery for our website
 
 
 

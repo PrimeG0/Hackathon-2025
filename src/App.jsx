@@ -23,11 +23,9 @@ import Cursor from './components/Cursor'
 import Gallery from './components/Gallery'
 import About from './components/About'
 import ScrollToTop from './components/ScrollToTop'
-import RollingGallery from './components/RollingGallery'
+import RollingGallery from './components/RollingGallery' 
 
-
-
-
+//HOME PAGE this is where the magic happens (FOR MORE INFO CHECK OUT MY GITHUB PAGE)
 
 function App() {
   const navigate = useNavigate();
